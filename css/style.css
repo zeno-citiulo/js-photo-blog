@@ -34,12 +34,11 @@ main{
 .row{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .col{
   width: calc(100%/3);
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 .photo{
