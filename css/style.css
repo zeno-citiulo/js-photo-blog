@@ -38,7 +38,7 @@ main{
 }
 
 .col{
-  width: calc(90%/3);
+  width: calc(100%/3);
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 25px;
