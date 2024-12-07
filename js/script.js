@@ -37,4 +37,22 @@ function printCard(photoHolder){
         </div>`
 }
 
-//const display = document.querySelector('d.none')
+
+const cards = document.querySelectorAll('.card-img'); 
+const hoverLayerContainer = document.querySelector('.d-none'); 
+const closeButton = document.querySelector('.hover-button'); 
+
+
+function showOverlay() {
+  hoverLayerContainer.classList.remove('d-none'); 
+}
+
+
+function hideOverlay() {
+  hoverLayerContainer.classList.add('d-none'); 
+}
+
+
+cards.forEach(card => {
+  card.addEventListener('click', showOverlay);
+});
